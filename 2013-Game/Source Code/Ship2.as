@@ -1,0 +1,1 @@
+﻿package  {		import Ship;			public class Ship2 extends Ship {						public function Ship2() {			health=2;			// constructor code		}	}	}

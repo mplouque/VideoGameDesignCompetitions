@@ -1,0 +1,1 @@
+﻿package  {			import flash.events.Event;		//make own custom event class	public class levelEvent extends Event {	public var score:int;	static const GAME_OVER = "gameOver";			public function levelEvent(type:String, s:int) 		{			// constructor code			//use constructor from the event class			super(type);			score=s; //set the score property		}	}	}
